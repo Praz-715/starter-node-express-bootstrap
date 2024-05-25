@@ -34,6 +34,7 @@ Use this template to initialize your Express, MongoDB, and Node.js web applicati
 
 ### Scripts
 Run `npm install` in the root directory to install packages.  
+Run `npm install --unsafe-perm` if error install sharp, delete node_module and install again.
 Run `npm run fix` to run ESLint fixes on your backend Javascript.  
 Run `npm run lint` to run ESLint analysis on your backend Javascript.  
 Run `npm run sass` to compile Bootstrap CSS from the `src` folder.  
